@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@charset "UTF-8";
+/* 1. Global Reset and Body Styling */
+body {
+    /* Clean, professional font */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Light background */
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    /* Center the content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* 2. Error Container (The Card) */
+.error-container {
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 12px;
+    /* Professional shadow */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    /* Add a subtle red border to reinforce the error */
+    border-top: 5px solid #dc3545; 
+}
+
+/* 3. Error Title Styling */
+.error-title {
+    color: #dc3545; /* Standard error red */
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+/* 4. Main Error Message Styling */
+.error-message {
+    color: #343a40; /* Darker text for readability */
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    /* Bold the key warning words */
+    font-weight: 500;
+}
+
+/* 5. Back Link Styling (Optional but recommended) */
+.back-link {
+    display: inline-block;
+    color: #007bff; /* Primary blue for links */
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 15px;
+    border: 1px solid #007bff;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #007bff;
+    color: white;
+}

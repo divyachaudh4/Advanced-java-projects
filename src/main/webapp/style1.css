@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* style.css */
+
+/* Global styles for the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; /* Light gray background */
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align content to the top */
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Container to hold the main content and keep it centered/organized */
+.container {
+    background-color: #ffffff; /* White background for the content box */
+    padding: 40px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+/* Heading style */
+h1 {
+    color: #007bff; /* A prominent blue color */
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: 600;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+/* Link style for the application login */
+a {
+    color: #28a745; /* A success/green color */
+    text-decoration: none; /* Remove underline by default */
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 8px 15px;
+    border: 2px solid #28a745;
+    border-radius: 4px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    display: inline-block; /* Allows padding and border */
+}
+
+a:hover {
+    background-color: #28a745; /* Green background on hover */
+    color: white; /* White text on hover */
+    text-decoration: none; /* No underline on hover */
+    box-shadow: 0 2px 4px rgba(40, 167, 69, 0.4);
+}
