@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+<<<<<<< HEAD
   <display-name>Hospital_Management_System</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
@@ -12,3 +13,33 @@
     <welcome-file>default.xhtml</welcome-file>
   </welcome-file-list>
 </web-app>
+=======
+  <display-name>studentApplication</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    
+  </welcome-file-list>
+  <servlet>
+  <servlet-name>studentregister</servlet-name>
+  <servlet-class>com.servlet.StudentRegisterServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>studentregister</servlet-name>
+  <url-pattern>/newstudent</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>getallstd</servlet-name>
+  <servlet-class>com.servlet.GetAllStudentServlet </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>getallstd</servlet-name>
+  <url-pattern>/getallstudent</url-pattern> 
+  </servlet-mapping>
+  
+  
+</web-app>
+
+>>>>>>> 8a73916c31bd98b8be573c6259f61e4c2e686761

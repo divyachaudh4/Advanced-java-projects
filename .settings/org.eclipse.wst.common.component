@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
     <wb-module deploy-name="Hospital_Management_System">
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <property name="context-root" value="Hospital_Management_System"/>
         <property name="java-output-path" value="/Hospital_Management_System/build/classes"/>
+=======
+    <wb-module deploy-name="studentApplication">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="studentApplication"/>
+        <property name="java-output-path" value="/studentApplication/build/classes"/>
+>>>>>>> 8a73916c31bd98b8be573c6259f61e4c2e686761
     </wb-module>
 </project-modules>
